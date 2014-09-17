@@ -2,6 +2,8 @@
 
 A Hubot script that display the images from [mstr.in](http://mstr.in), inspired by [aozora0000/hubot-meshi](https://github.com/aozora0000/hubot-meshi).
 
+![](http://img.f.hatena.ne.jp/images/fotolife/b/bouzuya/20140918/20140918004323.gif)
+
 ## Installation
 
     $ npm install git://github.com/bouzuya/hubot-mstr.git
