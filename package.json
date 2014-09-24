@@ -1,6 +1,6 @@
 {
   "name": "hubot-mstr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Hubot script that display the images from mstr.in, inspired by aozora0000/hubot-meshi",
   "main": "index.js",
   "scripts": {
