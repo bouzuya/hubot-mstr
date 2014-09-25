@@ -56,6 +56,7 @@ module.exports = (robot) ->
     return res.send('Now loading...') if loading
     count = parseInt (if res.match[1] then res.match[2] ? '5' else '1'), 10
     photos = shuffle(cache)[0...count]
-    res.send photos.map(photoUrl).join('\n')
+    for photo in photos
+      res.send photoUrl photo
 
   load()
